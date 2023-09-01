@@ -5,9 +5,10 @@ import { ContentDevelopmentPageComponent } from './main/content-development-page
 
 import { ContentDevelopmentPageRoutingModule } from './content-development.routing';
 import { ContentDevHeroSectionComponent } from './components/content-dev-hero-section/content-dev-hero-section.component';
+import { AppHeaderModule } from '@elewa-website/elements/layout/header';
 
 @NgModule({
-  imports: [CommonModule, ContentDevelopmentPageRoutingModule],
+  imports: [CommonModule, ContentDevelopmentPageRoutingModule,AppHeaderModule],
   declarations: [
     ContentDevelopmentPageComponent,
     ContentDevHeroSectionComponent,

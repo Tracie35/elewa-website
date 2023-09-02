@@ -9,7 +9,7 @@ import { AppHeaderModule } from '@elewa-website/elements/layout/header';
 import { TextsModule } from '@elewa-website/elements/layout/texts';
 
 @NgModule({
-  imports: [CommonModule, ContentDevelopmentPageRoutingModule,AppHeaderModule,TextsModule],
+  imports: [CommonModule, ContentDevelopmentPageRoutingModule,AppHeaderModule,TextsModule,],
   declarations: [
     ContentDevelopmentPageComponent,
     ContentDevHeroSectionComponent,

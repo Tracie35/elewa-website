@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './content-dev-hero-section.component.html',
   styleUrls: ['./content-dev-hero-section.component.scss'],
 })
-export class ContentDevHeroSectionComponent {}
+export class ContentDevHeroSectionComponent {
+  heroTextData = {
+    title: 'Content development',
+    subtitle: '',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolorem ipsum quia dolor sit Eos qui ratione voluptatem sequi nesciunt.'
+}};
